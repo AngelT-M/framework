@@ -1,0 +1,83 @@
+.cursos{
+    width: 90%;
+    margin: auto;
+}
+
+.texto-info{
+    font-size: 1rem;
+    color: black;
+}
+.texto-info h5{
+    font-size: 1rem;
+}
+.texto-info p{
+    margin-bottom: 0;
+}
+.texto-info a{
+    height: 2%;   
+}
+.centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #7b061c;
+}
+.boton{
+    margin-top: 1%;
+}
+@media (max-width: 1750px) {
+    .texto-info{
+    font-size: 1rem;
+    color: black;
+}
+    .texto-info h5{
+    font-size: 1rem;
+}
+    .boton{
+        width: 50%;
+        height: 50vh;
+    }
+    
+}
+
+@media (max-width: 1150px) {
+    .texto-info{
+    font-size: 0.5rem;
+    color: black;
+}
+    .texto-info h5{
+    font-size: 0.6rem;
+}
+    .boton{
+        padding: 6%;
+    }
+    
+}
+@media (max-width: 768px) {
+    .texto-info{
+    font-size: 1rem;
+    color: black;
+}
+    .texto-info h5{
+    font-size: 1rem;
+}
+    .boton{
+        padding: 6%;
+    }
+    
+}
+
+
+@media (max-width: 550px) {
+    .texto-info{
+    font-size: 0.5rem;
+    color: black;
+}
+    .texto-info h5{
+    font-size: 0.5rem;
+}
+    .boton{
+        margin-top: 5%;
+    }
+    
+}

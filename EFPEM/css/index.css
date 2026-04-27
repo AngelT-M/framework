@@ -1,0 +1,150 @@
+
+
+.contenido{
+    padding: 1%;
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.contenido p{
+    padding: 1% ;
+}
+
+.mi-vi{
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-areas: 
+    "cont1 mi-vi-img cont2"
+    ;
+    grid-template-columns: repeat(3, 1fr);
+}
+.mi-vi div{
+    margin: 3%;
+}
+
+.cont1{
+    grid-area: cont1;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.cont1 h3{
+    border-bottom: 2px solid black;  
+    font-size: 1rem;
+
+}
+.cont1 p{
+    text-align: justify;
+    padding: 5%;
+    font-size: 1rem;
+}
+.mi-vi-img{
+    grid-area: mi-vi-img;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.cont2{
+    grid-area: cont2;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.cont2 h3{
+    border-bottom: 2px solid black; 
+    font-style: 1rem; 
+}
+.cont2 p{
+    text-align: justify;
+    padding: 5%;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 1650px)  {
+    p{
+        font-size: 1.5rem;
+    }
+    .cont1 h3{
+    border-bottom: 2px solid black;  
+    font-size: 1.5rem;
+
+    }
+    .cont1 p{
+    text-align: justify;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+.cont2 h3{
+    border-bottom: 2px solid black; 
+    font-style: 1.5rem; 
+}
+.cont2 p{
+    text-align: justify;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+}
+
+@media (max-width: 1400px)  {
+    p{
+        font-size: 1rem;
+    }
+    .cont1 h3{
+    border-bottom: 2px solid black;  
+    font-size: 1rem;
+
+    }
+    .cont1 p{
+    text-align: justify;
+    padding: 5%;
+    font-size: 1rem;
+}
+.cont2 h3{
+    border-bottom: 2px solid black; 
+    font-style: 1rem; 
+}
+.cont2 p{
+    text-align: justify;
+    padding: 5%;
+    font-size: 1rem;
+}
+}
+
+
+
+@media (max-width: 768px) {
+    .titulo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mi-vi{
+        display: grid;
+        grid-template-areas:
+        "mi-vi-img" 
+        "cont1"
+        "cont2"
+        ;
+        grid-template-columns: 1fr;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+
+    
+}

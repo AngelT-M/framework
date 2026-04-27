@@ -1,0 +1,12 @@
+.centrar-ele{
+    margin: auto;
+    width: 80%;
+}
+
+.colo-azul{
+    background-color: rgb(165, 57, 24);
+    
+}
+.texto{
+    color: rgb(255, 255, 255);
+}

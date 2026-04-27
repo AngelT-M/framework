@@ -1,0 +1,146 @@
+header{
+    text-align: end;
+    padding: 1%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    margin: 2%;
+}
+
+.contenedor-prin{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+@media (max-width: 1350px) {
+    .contenedor-prin{
+    grid-template-columns: 1fr 1fr;  
+}  
+}
+@media (max-width: 850px) {
+    .contenedor-prin{
+    grid-template-columns: 1fr;  
+}  
+}
+
+.contenedor-prin div{
+    background-color: aliceblue;
+    margin: 1%;
+}
+.contenedor-prin h2{
+    background-color: rgb(196, 206, 247);
+    width: 100%;
+    text-align: center;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.grupos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.grupos div{
+    margin: 1%;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+
+}
+.colapsar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.dropdowns1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.dropdowns1 div{
+    margin-bottom: 1%;
+}
+
+.lista-grupos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.lista-grupos div{
+    margin-bottom: 1%;
+}
+
+.modal1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.modal1 div{
+    margin-bottom: 1%;
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.barra div{
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+.ventana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.ventana div{
+    margin-bottom: 1%;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.navegacion div{
+    width: 80%;
+}
+
+.tostada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+
+.herramienta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+

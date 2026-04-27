@@ -1,0 +1,24 @@
+.bgrojo{
+    background-color: red;
+}
+
+.bgverde{
+    background-color: green;
+}
+
+.fwhite{
+    color: white;
+}
+.fblue{
+    color: skyblue;
+}
+.borde1{
+    border: 1px solid black;
+}
+.borde5{
+    border: 5px solid black;
+}
+
+.p15{
+    padding: 15px;
+}

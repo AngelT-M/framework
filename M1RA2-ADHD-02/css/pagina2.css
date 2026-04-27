@@ -1,0 +1,80 @@
+header{
+    text-align: end;
+    padding: 1%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    margin: 2%;
+}
+
+.acordeon{
+    background-color: aliceblue;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+
+.cartas{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.titulopri{
+    text-align: center;
+}
+.tamano{
+    width: 100%;
+    height: 30vh;
+}
+
+
+
+
+.margen{
+    margin-bottom: 5%;
+}
+
+.carusel{
+    width: 50%;
+    margin: auto;
+
+}
+.acor2{
+    background-color: aliceblue;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.cartas-grid{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+@media (max-width:1000px) {
+    .cartas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:650px) {
+    .cartas{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .carusel{
+    width: 85%;
+    margin: auto;
+}
+    
+}
